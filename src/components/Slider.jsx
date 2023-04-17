@@ -93,7 +93,7 @@ else{
         */}
        
 
-{SliderItems.map((item)=>(  <Slide bg={item.bg}>
+{SliderItems.map((item)=>(  <Slide bg={item.bg} key={item.id}>
           <ImageContainer>
             <Image src={item.Image} />
           </ImageContainer>
